@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4B85E8A1-01A4-4D46-B81F-9835612329E7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ClassLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>portfolio</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="animate\animate.css" />
+    <Content Include="animate\animate.min.css" />
+    <Content Include="animate\gulpfile.js" />
+    <Content Include="animate\source\attention_seekers\bounce.css" />
+    <Content Include="animate\source\attention_seekers\flash.css" />
+    <Content Include="animate\source\attention_seekers\headShake.css" />
+    <Content Include="animate\source\attention_seekers\jello.css" />
+    <Content Include="animate\source\attention_seekers\pulse.css" />
+    <Content Include="animate\source\attention_seekers\rubberBand.css" />
+    <Content Include="animate\source\attention_seekers\shake.css" />
+    <Content Include="animate\source\attention_seekers\swing.css" />
+    <Content Include="animate\source\attention_seekers\tada.css" />
+    <Content Include="animate\source\attention_seekers\wobble.css" />
+    <Content Include="animate\source\bouncing_entrances\bounceIn.css" />
+    <Content Include="animate\source\bouncing_entrances\bounceInDown.css" />
+    <Content Include="animate\source\bouncing_entrances\bounceInLeft.css" />
+    <Content Include="animate\source\bouncing_entrances\bounceInRight.css" />
+    <Content Include="animate\source\bouncing_entrances\bounceInUp.css" />
+    <Content Include="animate\source\bouncing_exits\bounceOut.css" />
+    <Content Include="animate\source\bouncing_exits\bounceOutDown.css" />
+    <Content Include="animate\source\bouncing_exits\bounceOutLeft.css" />
+    <Content Include="animate\source\bouncing_exits\bounceOutRight.css" />
+    <Content Include="animate\source\bouncing_exits\bounceOutUp.css" />
+    <Content Include="animate\source\fading_entrances\fadeIn.css" />
+    <Content Include="animate\source\fading_entrances\fadeInDown.css" />
+    <Content Include="animate\source\fading_entrances\fadeInDownBig.css" />
+    <Content Include="animate\source\fading_entrances\fadeInLeft.css" />
+    <Content Include="animate\source\fading_entrances\fadeInLeftBig.css" />
+    <Content Include="animate\source\fading_entrances\fadeInRight.css" />
+    <Content Include="animate\source\fading_entrances\fadeInRightBig.css" />
+    <Content Include="animate\source\fading_entrances\fadeInUp.css" />
+    <Content Include="animate\source\fading_entrances\fadeInUpBig.css" />
+    <Content Include="animate\source\fading_exits\fadeOut.css" />
+    <Content Include="animate\source\fading_exits\fadeOutDown.css" />
+    <Content Include="animate\source\fading_exits\fadeOutDownBig.css" />
+    <Content Include="animate\source\fading_exits\fadeOutLeft.css" />
+    <Content Include="animate\source\fading_exits\fadeOutLeftBig.css" />
+    <Content Include="animate\source\fading_exits\fadeOutRight.css" />
+    <Content Include="animate\source\fading_exits\fadeOutRightBig.css" />
+    <Content Include="animate\source\fading_exits\fadeOutUp.css" />
+    <Content Include="animate\source\fading_exits\fadeOutUpBig.css" />
+    <Content Include="animate\source\flippers\flip.css" />
+    <Content Include="animate\source\flippers\flipInX.css" />
+    <Content Include="animate\source\flippers\flipInY.css" />
+    <Content Include="animate\source\flippers\flipOutX.css" />
+    <Content Include="animate\source\flippers\flipOutY.css" />
+    <Content Include="animate\source\lightspeed\lightSpeedIn.css" />
+    <Content Include="animate\source\lightspeed\lightSpeedOut.css" />
+    <Content Include="animate\source\rotating_entrances\rotateIn.css" />
+    <Content Include="animate\source\rotating_entrances\rotateInDownLeft.css" />
+    <Content Include="animate\source\rotating_entrances\rotateInDownRight.css" />
+    <Content Include="animate\source\rotating_entrances\rotateInUpLeft.css" />
+    <Content Include="animate\source\rotating_entrances\rotateInUpRight.css" />
+    <Content Include="animate\source\rotating_exits\rotateOut.css" />
+    <Content Include="animate\source\rotating_exits\rotateOutDownLeft.css" />
+    <Content Include="animate\source\rotating_exits\rotateOutDownRight.css" />
+    <Content Include="animate\source\rotating_exits\rotateOutUpLeft.css" />
+    <Content Include="animate\source\rotating_exits\rotateOutUpRight.css" />
+    <Content Include="animate\source\sliding_entrances\slideInDown.css" />
+    <Content Include="animate\source\sliding_entrances\slideInLeft.css" />
+    <Content Include="animate\source\sliding_entrances\slideInRight.css" />
+    <Content Include="animate\source\sliding_entrances\slideInUp.css" />
+    <Content Include="animate\source\sliding_exits\slideOutDown.css" />
+    <Content Include="animate\source\sliding_exits\slideOutLeft.css" />
+    <Content Include="animate\source\sliding_exits\slideOutRight.css" />
+    <Content Include="animate\source\sliding_exits\slideOutUp.css" />
+    <Content Include="animate\source\specials\hinge.css" />
+    <Content Include="animate\source\specials\rollIn.css" />
+    <Content Include="animate\source\specials\rollOut.css" />
+    <Content Include="animate\source\zooming_entrances\zoomIn.css" />
+    <Content Include="animate\source\zooming_entrances\zoomInDown.css" />
+    <Content Include="animate\source\zooming_entrances\zoomInLeft.css" />
+    <Content Include="animate\source\zooming_entrances\zoomInRight.css" />
+    <Content Include="animate\source\zooming_entrances\zoomInUp.css" />
+    <Content Include="animate\source\zooming_exits\zoomOut.css" />
+    <Content Include="animate\source\zooming_exits\zoomOutDown.css" />
+    <Content Include="animate\source\zooming_exits\zoomOutLeft.css" />
+    <Content Include="animate\source\zooming_exits\zoomOutRight.css" />
+    <Content Include="animate\source\zooming_exits\zoomOutUp.css" />
+    <Content Include="animate\source\_base.css" />
+    <Content Include="apresen.png" />
+    <Content Include="background\background-ball.jpg" />
+    <Content Include="background\background-white.jpg" />
+    <Content Include="background\background.jpg" />
+    <Content Include="index.html" />
+    <Content Include="logo.png" />
+    <Content Include="script\noframework.waypoints.min.js" />
+    <Content Include="script\script.js" />
+    <Content Include="style\style.css" />
+    <Content Include="videos\videobackground.mp4" />
+    <Content Include="wayponts\gulpfile.js" />
+    <Content Include="wayponts\lib\jquery.waypoints.js" />
+    <Content Include="wayponts\lib\jquery.waypoints.min.js" />
+    <Content Include="wayponts\lib\noframework.waypoints.js" />
+    <Content Include="wayponts\lib\noframework.waypoints.min.js" />
+    <Content Include="wayponts\lib\shortcuts\infinite.js" />
+    <Content Include="wayponts\lib\shortcuts\infinite.min.js" />
+    <Content Include="wayponts\lib\shortcuts\inview.js" />
+    <Content Include="wayponts\lib\shortcuts\inview.min.js" />
+    <Content Include="wayponts\lib\shortcuts\sticky.js" />
+    <Content Include="wayponts\lib\shortcuts\sticky.min.js" />
+    <Content Include="wayponts\lib\waypoints.debug.js" />
+    <Content Include="wayponts\lib\zepto.waypoints.js" />
+    <Content Include="wayponts\lib\zepto.waypoints.min.js" />
+    <Content Include="wayponts\licenses.txt" />
+    <Content Include="wayponts\src\adapters\jquery-zepto-fn-extension.js" />
+    <Content Include="wayponts\src\adapters\jquery.js" />
+    <Content Include="wayponts\src\adapters\noframework.js" />
+    <Content Include="wayponts\src\adapters\zepto.js" />
+    <Content Include="wayponts\src\context.js" />
+    <Content Include="wayponts\src\debug.js" />
+    <Content Include="wayponts\src\group.js" />
+    <Content Include="wayponts\src\shortcuts\infinite.js" />
+    <Content Include="wayponts\src\shortcuts\inview.js" />
+    <Content Include="wayponts\src\shortcuts\sticky.js" />
+    <Content Include="wayponts\src\waypoint.js" />
+    <Content Include="wayponts\test\adapter-fn-spec.js" />
+    <Content Include="wayponts\test\context-spec.js" />
+    <Content Include="wayponts\test\debug-spec.js" />
+    <Content Include="wayponts\test\fixtures\infinite.html" />
+    <Content Include="wayponts\test\fixtures\standard.html" />
+    <Content Include="wayponts\test\fixtures\sticky.html" />
+    <Content Include="wayponts\test\group-spec.js" />
+    <Content Include="wayponts\test\infinite-spec.js" />
+    <Content Include="wayponts\test\inview-spec.js" />
+    <Content Include="wayponts\test\lib\coffee-script.js" />
+    <Content Include="wayponts\test\lib\jasmine-html.js" />
+    <Content Include="wayponts\test\lib\jasmine-jquery.js" />
+    <Content Include="wayponts\test\lib\jasmine.css" />
+    <Content Include="wayponts\test\lib\jasmine.js" />
+    <Content Include="wayponts\test\lib\require.js" />
+    <Content Include="wayponts\test\lib\testloader.js" />
+    <Content Include="wayponts\test\settings.js" />
+    <Content Include="wayponts\test\sticky-spec.js" />
+    <Content Include="wayponts\test\waypoint-spec.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="animate\.editorconfig" />
+    <None Include="animate\.gitignore" />
+    <None Include="animate\animate-config.json" />
+    <None Include="animate\bower.json" />
+    <None Include="animate\LICENSE" />
+    <None Include="animate\package.json" />
+    <None Include="animate\README.md" />
+    <None Include="fontes\Aposiopesis Condensed.ttf" />
+    <None Include="fontes\CW_BANDY.TTF" />
+    <None Include="fontes\Dunkin.otf" />
+    <None Include="fontes\Elronmonospace.ttf" />
+    <None Include="fontes\Roboto-Regular.ttf" />
+    <None Include="fontes\Targa.ttf" />
+    <None Include="wayponts\.eslintrc" />
+    <None Include="wayponts\.gitignore" />
+    <None Include="wayponts\.travis.yml" />
+    <None Include="wayponts\bower.json" />
+    <None Include="wayponts\CHANGELOG.md" />
+    <None Include="wayponts\CONTRIBUTING.md" />
+    <None Include="wayponts\package.json" />
+    <None Include="wayponts\README.md" />
+    <None Include="wayponts\testem.json" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
