@@ -1,0 +1,5 @@
+C:\Users\Lucas\Desktop\Desk\Curriculo\bin\Debug\ClassLibrary.dll
+C:\Users\Lucas\Desktop\Desk\Curriculo\bin\Debug\ClassLibrary.pdb
+C:\Users\Lucas\Desktop\Desk\Curriculo\obj\Debug\portfolio.csprojResolveAssemblyReference.cache
+C:\Users\Lucas\Desktop\Desk\Curriculo\obj\Debug\ClassLibrary.dll
+C:\Users\Lucas\Desktop\Desk\Curriculo\obj\Debug\ClassLibrary.pdb

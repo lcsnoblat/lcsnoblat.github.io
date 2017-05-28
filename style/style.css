@@ -1,0 +1,148 @@
+body {
+  background-repeat: no-repeat;
+}
+html, body, .container-table {
+   height: 100%;
+}
+.container-table {
+   display: table;
+}
+.vertical-center-row {
+   display: table-cell;
+   vertical-align: middle;
+}
+@font-face {
+    font-family: logo;
+    src: url("../fontes/Aposiopesis Condensed.ttf");
+}
+@font-face {
+    font-family: cargo;
+    src: url("../fontes/Elronmonospace.ttf");
+}
+@font-face {
+    font-family: primeirosParagrafos;
+    src: url("../fontes/Dunkin.otf");
+}
+@font-face {
+    font-family: textoCurriculum;
+    src: url("../fontes/Targa.ttf");
+}
+@font-face {
+    font-family: textoProjeto;
+    src: url("../fontes/Roboto-Regular.ttf");
+}
+#page1 {
+  height: 1080px;
+}
+#video-background {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+#page2 {
+  background-image: url("../background/5120x2160.jpg");
+  background-repeat: no-repeat;
+  height: 1080px;
+  background-position: center;
+}
+
+#page3 {
+  background-image: url("../background/UCnRjmK.png");
+  background-repeat: no-repeat;
+  height: 1080px;
+}
+#logo {
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 40px;
+  animation-name: rainbow;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transition: border-color 1s;
+  color: white;
+}
+@-webkit-keyframes rainbow {
+    0%    {border-left-color: #ff9999; border-top-color: #c6ffb3; border-right-color: #80e5ff; border-bottom-color: #ff99ff;}
+    15%   {border-left-color: #ff9999; border-top-color: #c6ffb3; border-right-color: #80e5ff; border-bottom-color: #ff99ff;}
+    50%   {border-left-color: #ff99ff; border-top-color: #ff9999; border-right-color: #c6ffb3; border-bottom-color: #80e5ff;}
+    75%   {border-left-color: #80e5ff; border-top-color: #ff99ff; border-right-color: #ff9999; border-bottom-color: #c6ffb3;}
+    100%  {border-left-color: #c6ffb3; border-top-color: #80e5ff; border-right-color: #ff99ff; border-bottom-color: #ff9999;}
+}
+#logo:hover {
+  border-color: white;
+}
+#apresenta {
+    font-family: logo;
+    font-size: 55px;
+    color: #d0e1e1
+}
+#cargo {
+  font-family: cargo;
+  font-size: 25px;
+  color: white;
+}
+
+.primeirosParagrafos {
+  font-family: primeirosParagrafos;
+  font-size: 25px;
+}
+.textoCurriculum {
+  font-family: textoProjeto;
+  font-size: 15px;
+}
+
+#spanObjetivo {
+  margin-right: 25px;
+}
+#spanConhecimentos {
+  margin-right: 25px;
+}
+#spanFormacao {
+  margin-right: 25px;
+}
+#spanIdiomas {
+  margin-right: 25px;
+}
+#spanProjetos {
+  margin-right: 25px;
+  color: #7d7373;
+}
+#spanProjetos3 {
+  margin-right: 25px;
+  color: white;
+}
+#spanProjetos2 {
+  margin-right: 25px;
+  color: white;
+}
+.projetos {
+  font-family: textoProjeto;
+  font-size: 20px;
+  color: black;
+}
+#page3 p {
+  color: white;
+  font-family: textoProjeto;
+}
+.buttonsTop {
+  font-family: cargo;
+  margin-left: 35px;
+  margin-top: 25px;
+  font-size: 20px;
+  color: white;
+  border: 1px solid white;
+  background: rgba(0,0,0,.5);
+  border-radius: 50px;
+  padding: 15px;
+}
+
+.thumbnail {
+  margin-top: 100px;
+  background: rgba(0,0,0,.2);
+}
